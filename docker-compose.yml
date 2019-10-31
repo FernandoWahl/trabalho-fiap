@@ -17,7 +17,7 @@ services:
       - backend
 ### Backend ##############################################
   user-services:
-    build: .
+    image: fernandowahl/user-services
     ports:
       - "40002:40002"
     networks:
