@@ -1,0 +1,37 @@
+{
+  "name": "arquivo",
+  "version": "1.0.0",
+  "description": "Exemplo de microserviço em node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CLI CSF",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "capitalize": "^2.0.0",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.2",
+    "enum": "^2.5.0",
+    "express": "^4.17.1",
+    "express-http-context": "^1.2.3",
+    "express-load": "^1.1.16",
+    "express-validator": "^6.1.1",
+    "express-winston": "^3.2.1",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.5",
+    "npm": "^6.10.1",
+    "request": "^2.88.0",
+    "sha.js": "^2.4.11",
+    "socket.io": "^2.2.0",
+    "socketio-auth": "^0.1.1",
+    "uuid": "^3.3.2",
+    "winston": "^3.2.1",
+    "yamljs": "^0.3.0"
+  }
+}
