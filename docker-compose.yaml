@@ -27,7 +27,7 @@ services:
       restart_policy:
         condition: on-failure
 ### Viewer ##############################################
-  user-services:
+  visualizer:
     image: dockersamples/visualizer
     ports:
       - "8080:8080"
