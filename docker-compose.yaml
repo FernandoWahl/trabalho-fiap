@@ -34,7 +34,7 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock 
     deploy:
-      replicas: 3
+      replicas: 1
       mode: replicated
       restart_policy:
         condition: on-failure
