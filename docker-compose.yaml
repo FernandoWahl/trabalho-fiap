@@ -3,18 +3,6 @@ volumes:
   mongo:
     driver: local
 services:
-### Viewer ##############################################
-  visualizer:
-    image: dockersamples/visualizer
-    ports:
-      - "8080:8080"
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock 
-    deploy:
-      replicas: 1
-      mode: replicated
-      restart_policy:
-        condition: on-failure
 ### MongoDB ##############################################
   mongo:
     image: 'mongo'
